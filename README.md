@@ -62,7 +62,7 @@ This page intentionally uses a **separate, independent data source** (`Branch Of
 - [`Data/US_Furniture_Sales Report.xlsx`](Data/US_Furniture_Sales%20Report.xlsx) — main sales dataset
 - [`Data/Regional Sales_Plan vs Actual Achievement.xlsx`](Data/Regional%20Sales_Plan%20vs%20Actual%20Achievement.xlsx) — regional target data
 - [`Data/Branch Office GCC.xlsx`](Data/Branch%20Office%20GCC.xlsx) — independent branch office dataset
-- `ScreenShots/` — exported dashboard pages (above)
+- [`ScreenShots/`](ScreenShots/) — exported dashboard pages (above)
 ---
 
 ## Reflections
