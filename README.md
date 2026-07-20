@@ -59,7 +59,7 @@ This page intentionally uses a **separate, independent data source** (`Branch Of
 ## Files
 
 - [`US_Furniture_Sales_Dashboard.pbix`](US_Furniture_Sales_Dashboard.pbix) — full Power BI file
-- `Data/US_Furniture_Sales Report.xlsx` — main sales dataset
+- [`Data/US_Furniture_Sales Report.xlsx`] — main sales dataset
 - `Data/Regional Sales_Plan vs Actual Achievement.xlsx` — regional target data
 - `Data/Branch Office GCC.xlsx` — independent branch office dataset
 - `ScreenShots/` — exported dashboard pages (above)
