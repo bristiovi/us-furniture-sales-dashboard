@@ -2,7 +2,7 @@
 
 A Power BI dashboard built as part of a structured training exercise: create an executive dashboard for a US furniture sales organization, covering global sales and profit performance, with a detailed drill-down page, a monthly heatmap, and a second independent data source.
 
-> **Context:** This was built early in my Power BI learning journey, following a defined training brief (not a self-directed project). It's a good example of following a specific spec precisely — multiple pages, conditional formatting rules, custom visuals, and multiple data connections — while my later work (see my [Olist E-Commerce SQL + Power BI project](#)) reflects more independent, end-to-end analysis.
+> **Context:** This was built early in my Power BI learning journey, following a defined training brief (not a self-directed project). It's a good example of following a specific spec precisely — multiple pages, conditional formatting rules, custom visuals, and multiple data connections — while my later work (see my [Olist E-Commerce SQL + Power BI project](https://github.com/bristiovi/Olist_Eccomerce_Analytics)) reflects more independent, end-to-end analysis.
 
 ---
 
@@ -30,7 +30,7 @@ A calendar heatmap (custom "bciCalendar" visual) showing daily sales values acro
 ![Monthly Sales](ScreenShots/3.monthly_sales.png)
 
 ### 4. Branch Office GCC
-This page intentionally uses a **separate, independent data source** (`Branch_Office_GCC.xlsx`, with its own Employees and Orders-style sheets) rather than the furniture sales data. It isn't meant to connect to the sales story — the exercise required practicing a second data connection and building a specific table (Employee ID, Name, City, Location ID, Date, Units Sold, Sales Value) from it, separate from the main analysis.
+This page intentionally uses a **separate, independent data source** (`Branch Office GCC.xlsx`, with its own Employees and Orders-style sheets) rather than the furniture sales data. It isn't meant to connect to the sales story — the exercise required practicing a second data connection and building a specific table (Employee ID, Name, City, Location ID, Date, Units Sold, Sales Value) from it, separate from the main analysis.
 
 ![Branch Office GCC](ScreenShots/4.branch_office_gcc.png)
 
@@ -59,9 +59,9 @@ This page intentionally uses a **separate, independent data source** (`Branch_Of
 ## Files
 
 - [`US_Furniture_Sales_Dashboard.pbix`](US_Furniture_Sales_Dashboard.pbix) — full Power BI file
-- `data/US_Furniture_Sales_Report.xlsx` — main sales dataset
-- `data/Regional_Sales_Plan_vs_Actual_Achievement.xlsx` — regional target data
-- `data/Branch_Office_GCC.xlsx` — independent branch office dataset
+- `Data/US_Furniture_Sales Report.xlsx` — main sales dataset
+- `Data/Regional Sales_Plan vs Actual Achievement.xlsx` — regional target data
+- `Data/Branch Office GCC.xlsx` — independent branch office dataset
 - `ScreenShots/` — exported dashboard pages (above)
 
 ---
